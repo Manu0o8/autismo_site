@@ -7,45 +7,129 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   
    <style>
-    .nav-item{
-      display: flex;
-      
-    }
-    ul{
-    
-      text-align: left;
-      background-color: blue;
-    }
+        span{
+     
+       
+        }
 
+    .navbar{
+      height: 100px;
+      background-color: rgb(167, 167, 214);
+      display: flex;
+      justify-content: space-around; 
+      align-items: center; 
+      width: 100%;
+    }
+    header{
+      background-image: url("https://portalwp.s3.amazonaws.com/wp-content/uploads/2024/04/05131955/1669-30-01.jpg");
+      padding-top: 200px;
+      border: 10px solid;
+     
+    }
+.item_nav > a{
+  padding-left: 10vw;
+  
+}
+
+.p-2{
+      font-size: 1.2rem;
+      text-decoration: none; /* Remove o sublinhado */
+      transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+    .p-2:hover {
+      color: #fff; /* Cor do texto ao passar o mouse */
+      background-color: #007bff; /* Cor de fundo ao passar o mouse */
+      border-radius: 4px; /* Borda arredondada */
+      padding: 0.5rem 1rem; /* Espaçamento interno */
+    
+}
+ .list-group {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 10px; /* ajusta conforme necessário */}
+  
     </style>
 
   </style>
   </head>
   <body>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <img src="#" alt="sesc">
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Conteudo</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Separated link</a></li>
-        </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" aria-disabled="true">Quiz</a>
-      </li>
-    </ul>
+ <!--Barra de navegacao-->
+ <nav class="navbar bg-body-tertiary ">
+  <div class="container-fluid">
+    <div>  <img src="https://logodownload.org/wp-content/uploads/2014/10/senac-logo-0.png" alt="Logo" width="80" height="80">
+      LABJUV
+      2024
+    </div>
+ 
+    <div class="hstack gap-3">
+      <a class="p-2 ms-auto">Sobre</a>
+      <div class="vr"></div>
+      <a class="p-2">Quiz</a>
+    </div>
+
+</nav>
+
+ 
+
+  <!--Conteudo autismo-->
+  <header>
+    <h1>Autismo</h1>
+    <p>CONHEÇA UM POUCO SOBRE TEA (TRANSTORNO DO ESPECTRO AUTISTA)</p>
+  </header>
+  
+  <main>
+    <div class="row">
+      <div class="col-4">
+        <div  class="list-group">
+          <a class="list-group-item " href="#list-item-1">Item 1</a>
+          <a class="list-group-item" href="#list-item-2">Item 2</a>
+          <a class="list-group-item " href="#list-item-3">Item 3</a>
+          <a class="list-group-item " href="#list-item-4">Item 4</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div >
+          <h4 id="list-item-1">Item 1</h4>
+          <p>...  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi esse blanditiis repellat. Explicabo voluptas eaque libero aut optio, porro vel quibusdam omnis, et vitae similique impedit at in, voluptate perferendis.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo animi tempora eligendi alias quidem iste obcaecati a iusto aut ex dolor nulla nesciunt iure esse eveniet, debitis autem pariatur. Dicta?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat pariatur ipsam similique saepe iusto eos alias officia doloremque odio facilis, corporis magnam, sint, quam id earum aliquam. Itaque, soluta!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel similique non corrupti quasi. Expedita deleniti cumque sed consequatur nemo, perspiciatis accusantium dolorum sequi beatae dicta, nobis blanditiis, est facere iste?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum velit ad possimus iusto minus odio deleniti ex harum magnam iste porro, amet tempora ducimus sunt. Temporibus unde beatae dignissimos!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, reprehenderit harum. Quaerat blanditiis alias sit perspiciatis necessitatibus animi amet magnam illo fuga harum recusandae itaque nulla eum sunt, adipisci dolor.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam velit, debitis recusandae quaerat voluptatum accusamus optio culpa blanditiis aspernatur impedit, repellendus sed dolor, et quis praesentium sint quasi ducimus officia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate soluta excepturi eveniet consequuntur dolorem asperiores, perspiciatis aliquid fugit quam illum hic natus, quas sed quidem mollitia aperiam dolor illo. Inventore.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi commodi, maxime dolorum quam nemo ipsum, eligendi voluptates omnis necessitatibus minus at id ipsam exercitationem blanditiis culpa consectetur placeat distinctio! Eveniet?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta voluptatum repellat tempore aliquam sapiente repellendus placeat excepturi, consectetur, expedita omnis vel quaerat possimus rerum amet et! Fuga aut delectus beatae!
+          </p>
+          <h4 id="list-item-2">Item 2</h4>
+          <p>...</p>
+          <h4 id="list-item-3">Item 3</h4>
+          <p>...</p>
+          <h4 id="list-item-4">Item 4</h4>
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+     
+  </main>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <footer>
+    Sobre o labjuv
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script>
+      // Rola para o topo da página ao carregar
+      window.onload = function () {
+          window.scrollTo(0, 0);
+      }
+  </script>
+      </script>
   </body>
 </html>
 
