@@ -1,0 +1,71 @@
+
+
+body{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+width: 8px; /* Largura da barra de rolagem vertical */
+height: 8px; /* Altura da barra de rolagem horizontal */
+}
+
+.navbar{
+height: 100px;
+background-color: rgb(167, 167, 214);
+display: flex;
+justify-content: space-around; 
+align-items: center; 
+width: 100%;
+}
+header{
+background-image: url("https://portalwp.s3.amazonaws.com/wp-content/uploads/2024/04/05131955/1669-30-01.jpg");
+padding-top: 220px;
+
+
+}
+main,header{
+margin-top: 20px;
+}
+.item_nav > a{
+padding-left: 10vw;
+
+}
+
+.p-2{
+font-size: 1.2rem;
+text-decoration: none; 
+transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.p-2:hover {
+color: #fff; 
+background-color: #007bff; 
+border-radius: 4px; 
+padding: 0.5rem 1rem; 
+
+}
+.list-group {
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 10px; /* ajusta conforme necessário */}
+
+footer{
+    margin: 30px;
+    align-items: center;
+    width: 80vw;
+}
+
+#slide{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 40vh; /* Altura total da tela, ajuste conforme necessário */
+    border: 1px solid black; /* Apenas para visualização */
+
+
+}
+.img_lab{
+    width: 300px;
+    height: 200px;
+
+}
