@@ -2,30 +2,81 @@
 
 body{
   overflow-x: hidden;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #4fccf177  ;
+
+
 }
 
 ::-webkit-scrollbar {
-width: 8px; /* Largura da barra de rolagem vertical */
+width: 0px; /* Largura da barra de rolagem vertical */
 height: 8px; /* Altura da barra de rolagem horizontal */
 }
 
 .navbar{
 height: 100px;
-background-color: rgb(167, 167, 214);
+
+background-color:#f0f0f0;
 display: flex;
 justify-content: space-around; 
 align-items: center; 
 width: 100%;
+
+}
+
+.destaque{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 header{
-background-image: url("https://portalwp.s3.amazonaws.com/wp-content/uploads/2024/04/05131955/1669-30-01.jpg");
-padding-top: 220px;
-
+    margin-top: 30px;
+background-image: url("../img/ceu-azul.jpg") ;
+text-align: center;
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+padding: 110px;
 
 }
-main,header{
-margin-top: 20px;
+header>h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    color:  #ffcc00 ;
+    padding: 20px;
+    border-radius: 3px;
+
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2) ;
 }
+header>p{
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #4fcbf12a;
+    font-size: small;
+    font-weight: bolder;
+}
+
+
+main{
+   background-color:#f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main,section{
+    margin-top: 90px;
+}
+
+
+.card-body{
+    background-color: #ffff99;
+}
+
+.Curiosidades,.Depoimentos{
+    text-align: center;
+    background-color: #01bcf5a6;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: -4px -4px 10px #ffff99a4;
+}
+
 .item_nav > a{
 padding-left: 10vw;
 
@@ -34,20 +85,37 @@ padding-left: 10vw;
 .p-2{
 font-size: 1.2rem;
 text-decoration: none; 
+
+border: #01BBF5  solid ;
+border-radius: 3px 10px;
 transition: color 0.3s ease, background-color 0.3s ease;
+color: black;
+background-color: #32454b0c ;
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.p-2:hover {
-color: #fff; 
-background-color: #007bff; 
+.p-2:hover { 
+background-color:  #ffff99; 
 border-radius: 4px; 
+font-size: 1.1rem;
 padding: 0.5rem 1rem; 
 
 }
-.list-group {
+.list-group, .button_fechar {
+text-align: center;
 position: -webkit-sticky; /* Safari */
 position: sticky;
 top: 10px; /* ajusta conforme necessário */}
+
+.list-group :hover{
+    background-color: #ffff99 ;
+
+}
+
+.col-8{
+    background-color: white;
+}
+
 
 footer{
     margin: 30px;

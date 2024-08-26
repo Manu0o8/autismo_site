@@ -2,9 +2,9 @@ export default[
     {
         questao:"O que é o Transtorno do Espectro do Autismo (TEA)?",
         respostas:[
-           { opcao:"Uma condição médica que afeta apenas a comunicação verbal",correto:false},
-           { opcao:"Um transtorno do desenvolvimento que afeta a comunicação, comportamento e interação social.",correto:true},
-           { opcao:"Uma doença mental que pode ser curada com medicamentos.",correto:false},
+           { opcao:"A. Uma condição médica que afeta apenas a comunicação verbal",correto:false},
+           { opcao:"B. Um transtorno do desenvolvimento que afeta a comunicação, comportamento e interação social.",correto:true},
+           { opcao:"C. Uma doença mental que pode ser curada com medicamentos.",correto:false},
         ],
     },
     {
